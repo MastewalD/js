@@ -7,13 +7,12 @@ let fourth=document.querySelector("#fourth")
 console.log(first,second,third,fourth)
 let all=document.querySelectorAll("p")
 console.log(all)
-all.innerHTML=""
 for (i=0;i<=all.length;i++){
     console.log(all[i])
 }
 
 
-all[0].innerHTML=""
+
 
 first.id="first-id"
 second.id="sconde-id"
